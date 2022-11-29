@@ -3,6 +3,8 @@
 #include <boost/property_tree/json_parser.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 #include <iostream>
+#include <string>
+#include <array>
 
 boost::asio::io_service ioService;
 boost::asio::ip::tcp::endpoint tcpEndpoint{ boost::asio::ip::tcp::v4(), 80 };

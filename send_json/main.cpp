@@ -1,6 +1,7 @@
 #include <boost/asio.hpp>
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/json_parser.hpp>
+#include <iostream>
 
 boost::asio::io_service ioService;
 boost::asio::ip::tcp::resolver resolv{ ioService };
